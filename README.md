@@ -31,10 +31,11 @@ HTML的基本使用
 |``<meta>``|标签|常用于指定网页的描述，关键词，SEO及其他设置|
 |``<body></body>``|主体|网页显示的主要内容|
 |``<h1></h1>``|一级标题|创建一级标题的标签,一般为居中显示<br>使用示例：``<h1 style="text-align: center">h1居中显示</h1>``|
-|``<span></span>``|行分区|用于对特殊文本特殊处理<br>使用示例：|
+|``<span></span>``|行分区|用于对特殊文本特殊处理<br>使用示例：``<span class=""></span>``|
 |``<b></b>``|加粗|加粗标签<br>使用示例：``<b>加粗文本内容</b>``|
+|````|||
 |``<strong></strong>``|强调标签|效果同b标签<br>使用示例：``<strong>强调加粗文本内容</strong>``|
-|``<label></label>``|文本标签|常与表单控件结合实现文本与控件的绑定<br>使用示例：|
+|``<label></label>``|文本标签|常与表单控件结合实现文本与控件的绑定<br>使用示例：``<label for="username">姓名：</label>``|
 |``<i></i>``|斜体标签|常用文本的显示<br>使用示例：|
 |``<u></u>``|下划线标签|常用文本的显示<br>使用示例：|
 |``<hr>``|水平线标签|在页面中插入一条水平分割线<br>使用示例：|
@@ -333,7 +334,23 @@ HTML的基本使用
 </form>
 ```
 
+## 折叠博客文档功能示例
+<details>
+ <summary>简化整体结构，文档折叠功能示例</summary>
+ <ol>
+  <li>打印Hello World</li>
+  <pre>print "Hello World"</pre>
+ </ol>
+</details>
 
-
+```
+<details>
+ <summary>简化整体结构，文档折叠功能示例</summary>
+ <ol>
+  <li>打印Hello World</li>
+  <pre>print "Hello World"</pre>
+ </ol>
+</details>
+```
 
 <p id="a">锚点</p>
